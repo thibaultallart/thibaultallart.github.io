@@ -3,10 +3,13 @@ layout: page
 title: About
 ---
 
-## GTT-LSTA
+## Thibault ALLART
 
 <p class='message'>
-à remplir
+Doctoral Student at
+- Ubisoft
+- University Pierre et Marie Currie
+- Conservatoir National de Arts et Métiers
 
 </p>
 
