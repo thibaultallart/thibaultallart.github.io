@@ -1,0 +1,9 @@
+# Site settings
+title: Thibault ALLART 
+theme: jekyll-theme-cayman
+
+#Dependencies
+markdown: kramdown 
+
+gems:
+        - jekyll-paginate

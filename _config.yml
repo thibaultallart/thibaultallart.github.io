@@ -1,3 +1,34 @@
-# Site settings
-title: Thibault ALLART 
-theme: jekyll-theme-cayman
+# Dependencies
+markdown:           kramdown 
+#highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:            GTTLSTA            
+tagline:          'GTT-LSTA'
+description:      'GTT-LSTA' 
+url:              http://gttlsta.github.io
+
+author:
+  name:           'lsta'
+  url:            http://gttlsta.github.io
+  gravatar:       https://gttlsta.github.io/public/favicon.jpeg 
+  photo:          https://gttlsta.github.io/public/favicon.jpeg
+  introduction:   "GTT-LSTA"
+
+paginate:         5
+paginate_path:    '/archive/page:num'
+
+# Custom vars
+version:          1.0.0
+
+gems:
+        - jekyll-paginate
+         
+        
+github:           
+  repo:           https://github.com/gttlsta
