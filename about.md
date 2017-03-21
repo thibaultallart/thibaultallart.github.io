@@ -1,9 +1,7 @@
 ---
 layout: page
-title: About
+title: Thibault ALLART
 ---
-
-## Thibault ALLART
 
 Doctoral Student at
 
