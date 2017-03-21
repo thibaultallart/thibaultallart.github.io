@@ -18,7 +18,7 @@ author:
   url:            http://thibaultallart.github.io
   gravatar:       https://thibaultallart.github.io/public/favicon.jpeg 
   photo:          https://thibaultallart.github.io/public/favicon.jpeg
-  introduction:   "GTT-LSTA"
+  introduction:   "Thibault ALLART"
 
 paginate:         5
 paginate_path:    '/teaching/page:num'
