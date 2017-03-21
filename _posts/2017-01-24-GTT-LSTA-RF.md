@@ -9,30 +9,8 @@ tags: stats RF survie
 
 ### Analyse de survie
 
-* Introduction sur la censure des données
-
-* Fonctions usuelles pour l'étude des variables censurées
-
-* Estiamteur de Kaplan Meier : hypothèse et convergence. Notions de
-  pondération des observations
-
-<!--_split-->
-
-### Forêt Aléatoire
-
-* Description de la méthode de Forêt Aléatoire 'classique' pour la
-  régression dans le cas de données non-censurées
-
-## Méthode de Forêt Aléatoire pour la régression d&#39;une variable censurée
-
-* Présentation de l'application de la méthode au scoring de contrat en
-  assurance santé
-
-* Desciption de la méthode proposée : Random Forest pondérée
-
-* Etude des performances de la méthode dans des simulations sur données
-  réelles et sur données simulées
+* Introduction à l'analyse de survie pour le master MEDAS du CNAM
 
 
-[Download slides](https://gttlsta.github.io/public/pdf/Slides___Random_Forest_for_regression_of_a_censored_variable.pdf)
+[Download slides](https://gttlsta.github.io/public/pdf/Survie_cours_1.pdf)
 
