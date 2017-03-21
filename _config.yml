@@ -21,7 +21,7 @@ author:
   introduction:   "GTT-LSTA"
 
 paginate:         5
-paginate_path:    '/archive/page:num'
+paginate_path:    '/teaching/page:num'
 
 # Custom vars
 version:          1.0.0
