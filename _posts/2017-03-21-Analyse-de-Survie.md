@@ -10,4 +10,4 @@ tags: Survie
 * Introduction à l'analyse de survie pour le master MEDAS du CNAM
 
 
-[Slides de la semaine 1](https://gttlsta.github.io/public/pdf/Survie_cours_1.pdf)
+[Slides de la semaine 1](https://thibaultallart.github.io/public/pdf/Survie_cours_1.pdf)
