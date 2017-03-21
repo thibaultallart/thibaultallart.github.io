@@ -11,13 +11,13 @@ permalink:           pretty
 title:            GTTLSTA            
 tagline:          'GTT-LSTA'
 description:      'GTT-LSTA' 
-url:              http://gttlsta.github.io
+url:              http://thibaultallart.github.io
 
 author:
   name:           'lsta'
-  url:            http://gttlsta.github.io
-  gravatar:       https://gttlsta.github.io/public/favicon.jpeg 
-  photo:          https://gttlsta.github.io/public/favicon.jpeg
+  url:            http://thibaultallart.github.io
+  gravatar:       https://thibaultallart.github.io/public/favicon.jpeg 
+  photo:          https://thibaultallart.github.io/public/favicon.jpeg
   introduction:   "GTT-LSTA"
 
 paginate:         5
@@ -31,4 +31,4 @@ gems:
          
         
 github:           
-  repo:           https://github.com/gttlsta
+  repo:           https://github.com/thibaultallart
