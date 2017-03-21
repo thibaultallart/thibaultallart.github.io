@@ -8,9 +8,9 @@ markdown:           kramdown
 permalink:           pretty
 
 # Setup
-title:            GTTLSTA            
-tagline:          'GTT-LSTA'
-description:      'GTT-LSTA' 
+title:            Thibault Allart            
+tagline:          'Thibault ALLART'
+description:      'Thibault ALLART' 
 url:              http://thibaultallart.github.io
 
 author:
