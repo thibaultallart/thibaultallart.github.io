@@ -7,8 +7,7 @@ title: About
 
 Doctoral Student at
 
-* Ubisoft
-* University Pierre et Marie Currie
-* Conservatoir National de Arts et Métiers
-
+* [Ubisoft](https://www.ubisoft.com)
+* [LSTA/UMPC](http://www.lsta.lab.upmc.fr/)
+* [CEDRIC/CNAM](http://cedric.cnam.fr/)
 
