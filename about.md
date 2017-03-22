@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Thibault ALLART
+title: About
 ---
 
-Doctoral Student at
+I am a doctoral student at
 
 * [Ubisoft](https://www.ubisoft.com)
 * [LSTA/UMPC](http://www.lsta.lab.upmc.fr/)
