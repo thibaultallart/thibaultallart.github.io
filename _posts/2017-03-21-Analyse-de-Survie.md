@@ -11,3 +11,6 @@ tags: Survie
 
 
 [Slides de la semaine 1](https://thibaultallart.github.io/public/pdf/Survie_cours_1.pdf)
+
+
+[Description des projets](https://thibaultallart.github.io/public/pdf/Survie_projets.pdf)
