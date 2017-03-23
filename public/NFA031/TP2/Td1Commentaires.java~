@@ -1,0 +1,16 @@
+public class Td1 {
+  public static void main (String [] arguments) {
+    Terminal.ecrireStringln("exo1");
+    character a;
+    int a,bb
+      char c = 'bonjour';
+    boolean tt =
+      a=2;
+    bb = x+3;
+    tt=x+4;
+    a = x +1;
+    bb= 3*w;
+    bb+1 = 3;
+    bb==2;
+  }
+}
