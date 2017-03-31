@@ -14,11 +14,8 @@ description:      'Thibault ALLART'
 url:              http://thibaultallart.github.io
 
 author:
-  name:           'lsta'
+  name:           'Thibault Allart'
   url:            http://thibaultallart.github.io
-  gravatar:       https://thibaultallart.github.io/public/favicon.jpeg 
-  photo:          https://thibaultallart.github.io/public/favicon.jpeg
-  introduction:   "Thibault ALLART"
 
 paginate:         5
 paginate_path:    '/teaching/page:num'
