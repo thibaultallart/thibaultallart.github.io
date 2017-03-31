@@ -13,4 +13,11 @@ title: Research
 * T. Allart, A. Guilloux. (2016). Stochastic Gradient Descent on Cox Model : Time varying data and coefficients. In Rencontres R Conf. 
 [Poster](/research/Poster_Renconctres_R_2016.pdf)
 
+# Invited conferences
+
+* Analyse des données longitudinales issues des jeux vidéo. 
+  Young Statisticians and Probabilists (2017)
+
+# Invited seminar
+
 
