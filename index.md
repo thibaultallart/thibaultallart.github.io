@@ -11,7 +11,7 @@ Phd student in Computer Science and Statistics.
 
 Currently working for [Ubisoft](https://www.ubisoft.com)
 
-I share my times between industry and two research laboratories :
+I share my time between industry and two research laboratories :
 * [LSTA / University of Pierre and Marie Curie](http://www.lsta.lab.upmc.fr/)
 * [CEDRIC / Conservatoire national des arts et metiers](http://cedric.cnam.fr/)
 
