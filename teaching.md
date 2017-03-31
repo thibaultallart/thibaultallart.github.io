@@ -8,18 +8,20 @@ title: Teaching
 
 | Course     | Level   | Institute | Content      |
 | ---------- | ------  | ----------|--------------|
-| [Survival Analysis](/teaching/survival) | Master | CNAM | Kaplan-Meier - Cox proportional hazard |
 | [Java programming](/teaching/nfa031) | Licence | CNAM      | conditions - loops - functions - array |
 | Biostatistics | Licence | CNAM | ROC curve - AUC - Sensibility - Specificity |
-| Longitudinal data | Master | CNAM |  mixed model - random effect - longitudinal data | 
 | Introduction to statistics | Master  | ENJMIN    | probability - confidence interval - tests <br> Markov chain - regression |
+| [Survival Analysis](/teaching/survival) | Master | CNAM | Kaplan-Meier - Cox proportional hazard |
+| Longitudinal data | Master | CNAM |  mixed model - random effect - longitudinal data | 
+
 
 # 2015 - 2016
 
 | Course             | Level   | Institute | Content      |
 | ------------------ | ------  | ----------|--------------|
-| Introduction to statistics | Master  | ENJMIN    | probability - confidence interval - tests <br> Markov chain - regression |
 | Java programming   | Licence | CNAM      | conditions - loops - functions - array |
+| Introduction to statistics | Master  | ENJMIN    | probability - confidence interval - tests <br> Markov chain - regression |
+
 
 
 ENJMIN : Ecole nationale du jeu et des medias interactifs numeriques 
