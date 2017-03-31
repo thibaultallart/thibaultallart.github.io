@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: About Me
 ---
@@ -13,7 +13,7 @@ title: About Me
 # Postal Address
 UFR Sciences et Techniques de la Cote Basque-Anglet
 
-All�e du Parc Montaury,
+Allée du Parc Montaury,
 
 64600 Anglet, France
 
