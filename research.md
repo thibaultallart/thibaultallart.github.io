@@ -1,7 +1,7 @@
 ---
 layout: page
 sidebar: true
-title: Research2
+title: Research
 ---
 
 * Allart, T., Levieux, G., Pierfitte, M., Guilloux, A., & Natkin, S. (2016). Design Influence on Player Retention: A Method Based on Time Varying Survival Analysis. In Proc. IEEE Computational Intelligence and Games Conf., IEEE.
