@@ -7,11 +7,19 @@ title: About me
 <img src="https://thibaultallart.github.io/resume/Photo_profil.jpg" height="90" width="79">
 
 # Position
-Doctoral student at
+Phd student in Computer Science and Statistics.
 
-* [Ubisoft](https://www.ubisoft.com)
-* [LSTA/UMPC](http://www.lsta.lab.upmc.fr/)
-* [CEDRIC/CNAM](http://cedric.cnam.fr/)
+Currently working for [Ubisoft](https://www.ubisoft.com)
+
+I share my times between industry and two research laboratories :
+* [LSTA / University of Pierre and Marie Curie](http://www.lsta.lab.upmc.fr/)
+* [CEDRIC / Conservatoire national des arts et metiers](http://cedric.cnam.fr/)
+
+# Research interest
+- Time Varying Survival Analysis
+- Longitudinal Time to Event data
+- Optimization
+- Total variation penalty and it's generalizations
 
 # Contact
 - E-mail: thibault.allart@gmail.com
