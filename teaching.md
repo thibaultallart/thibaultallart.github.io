@@ -10,6 +10,8 @@ title: Teaching
 | ---------- | ------  | ----------|--------------|
 | [Survival Analysis](/teaching/survival) | Master | CNAM | Kaplan-Meier - Cox proportional hazard |
 | [Java programming](/teaching/nfa031) | Licence | CNAM      | conditions - loops - functions - array |
+| Biostatistics | Licence | CNAM | ROC curve - AUC - Sensibility - Specificity |
+| Longitudinal data | Master | CNAM |  mixed model - random effect - longitudinal data | 
 
 # 2016
 
