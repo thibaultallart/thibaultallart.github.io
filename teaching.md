@@ -1,5 +1,6 @@
 ---
-title: "Teaching"
+layout: page
+title: Teaching
 ---
 
 Cours d'analyse de survie pour le master MEDAS du CNAM
