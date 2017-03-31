@@ -4,7 +4,7 @@ sidebar: true
 title: About me
 ---
 
-<img src="https://thibaultallart.github.io/Resume/Photo_profil.jpg" height="90" width="79">
+<img src="https://thibaultallart.github.io/resume/Photo_profil.jpg" height="90" width="79">
 
 # Position
 Doctoral student at
