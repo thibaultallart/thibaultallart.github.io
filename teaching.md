@@ -16,4 +16,5 @@ title: Teaching
 | Introduction to statistics | Master  | ENJMIN    | probability - confidence interval - tests <br> Markov chain - regression |
 | Java programming   | Licence | CNAM      | conditions - loops - functions - array |
 
-Ecole nationale du jeu et des medias interactifs numeriques 
+ENJMIN : Ecole nationale du jeu et des medias interactifs numeriques 
+CNAM : Conservatoire national des arts et metiers
