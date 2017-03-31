@@ -4,7 +4,7 @@ sidebar: true
 title: Teaching
 ---
 
-# 2017
+# 2016 - 2017
 
 | Course     | Level   | Institute | Content      |
 | ---------- | ------  | ----------|--------------|
@@ -12,13 +12,15 @@ title: Teaching
 | [Java programming](/teaching/nfa031) | Licence | CNAM      | conditions - loops - functions - array |
 | Biostatistics | Licence | CNAM | ROC curve - AUC - Sensibility - Specificity |
 | Longitudinal data | Master | CNAM |  mixed model - random effect - longitudinal data | 
+| Introduction to statistics | Master  | ENJMIN    | probability - confidence interval - tests <br> Markov chain - regression |
 
-# 2016
+# 2015 - 2016
 
 | Course             | Level   | Institute | Content      |
 | ------------------ | ------  | ----------|--------------|
 | Introduction to statistics | Master  | ENJMIN    | probability - confidence interval - tests <br> Markov chain - regression |
 | Java programming   | Licence | CNAM      | conditions - loops - functions - array |
+
 
 ENJMIN : Ecole nationale du jeu et des medias interactifs numeriques 
 CNAM : Conservatoire national des arts et metiers
