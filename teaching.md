@@ -6,4 +6,4 @@ title: Teaching
 
 Cours d'analyse de survie pour le master MEDAS du CNAM
 
-* [Survival Analysis](survival)
+* [Survival Analysis](/survival)
