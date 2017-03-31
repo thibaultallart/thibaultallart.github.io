@@ -6,5 +6,5 @@ title: Teaching
 
 Cours d'analyse de survie pour le master MEDAS du CNAM
 
-* [Survival Analysis](/survival)
-* [Programmation Java](/NFA031)
+* [Survival Analysis](/teaching/survival)
+* [Programmation Java](/teaching/nfa031)
