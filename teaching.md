@@ -11,6 +11,9 @@ title: Teaching
 
 # 2016
 
-| Course                              | Level  | Institute                                                  |
-| ----------------------------------- | ------ | -----------------------------------------------------------|
-| Cours d'introduction aux statistique| Master |Ecole nationale du jeu et des medias interactifs numeriques |
+| Course                              | Level  | Institute | Content                                                           |
+| ----------------------------------- | ------ | ----------|-------------------------------------------------------------------|
+| Introduction to statistics          | Master | ENJMIN    | probability, confidence interval, tests, Markov chain, regression |
+
+
+Ecole nationale du jeu et des medias interactifs numeriques 
