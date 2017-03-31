@@ -23,4 +23,5 @@ title: Teaching
 
 
 ENJMIN : Ecole nationale du jeu et des medias interactifs numeriques 
+
 CNAM : Conservatoire national des arts et metiers
