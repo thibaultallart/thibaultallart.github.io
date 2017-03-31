@@ -5,9 +5,11 @@ title: Teaching
 ---
 
 # 2017
-* [Survival Analysis](/teaching/survival)
-* [Programmation Java](/teaching/nfa031)
 
+| Course             | Level   | Institute | Content      |
+| ------------------ | ------  | ----------|--------------|
+| [Survival Analysis](/teaching/survival) | Master | CNAM | Kaplan-Meier - Cox proportional hazard |
+| [Java programming](/teaching/nfa031) | Licence | CNAM      | conditions - loops - functions - array |
 
 # 2016
 
