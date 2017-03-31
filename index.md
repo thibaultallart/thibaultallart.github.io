@@ -16,10 +16,11 @@ I share my times between industry and two research laboratories :
 * [CEDRIC / Conservatoire national des arts et metiers](http://cedric.cnam.fr/)
 
 # Research interest
-- Time Varying Survival Analysis
-- Longitudinal Time to Event data
+- Statistical learning
+- Time varying survival analysis
+- Longitudinal time to event data
 - Optimization
-- Total variation penalty and it's generalizations
+- Total variation penalty and generalizations
 
 # Contact
 - E-mail: thibault.allart@gmail.com
