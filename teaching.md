@@ -11,9 +11,9 @@ title: Teaching
 
 # 2016
 
-| Course                              | Level  | Institute | Content                                                           |
-| ----------------------------------- | ------ | ----------|-------------------------------------------------------------------|
-| Introduction to statistics          | Master | ENJMIN    | probability, confidence interval, tests, Markov chain, regression |
-
+| Course             | Level   | Institute | Content      |
+| ------------------ | ------  | ----------|--------------|
+| Introduction to statistics | Master  | ENJMIN    | probability - confidence interval - tests <br> Markov chain - regression |
+| Java programming   | Licence | CNAM      | conditions - loops - functions - array |
 
 Ecole nationale du jeu et des medias interactifs numeriques 
