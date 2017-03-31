@@ -1,34 +1,27 @@
 # Dependencies
-markdown:           kramdown 
-#highlighter:         pygments
-
+markdown:           redcarpet 
+highlighter:        pygments
+gems:
+        - jekyll-paginate
+        - jekyll-gist
+        
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 
 # Setup
 title:            Thibault Allart            
-tagline:          'Thibault ALLART'
-description:      'Thibault ALLART' 
+tagline:          'Data Scientist'
+description:      '' 
 url:              http://thibaultallart.github.io
+baseurl:          /
 
 author:
-  name:           'lsta'
-  url:            http://thibaultallart.github.io
-  gravatar:       https://thibaultallart.github.io/public/favicon.jpeg 
-  photo:          https://thibaultallart.github.io/public/favicon.jpeg
-  introduction:   "Thibault ALLART"
+  name:           'Thibault Allart'
 
 paginate:         5
-paginate_path:    '/teaching/page:num'
 
 # Custom vars
 version:          1.0.0
-
-gems:
-        - jekyll-paginate
-         
-        
+  
 github:           
   repo:           https://github.com/thibaultallart
