@@ -18,7 +18,6 @@ author:
   url:            http://thibaultallart.github.io
 
 paginate:         5
-paginate_path:    '/teaching/page:num'
 
 # Custom vars
 version:          1.0.0
