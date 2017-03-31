@@ -9,4 +9,4 @@ title: Research
 [pdf](/research/Allart_(2016)_Design_Influence_on_Player_Retention_-_A_Method_Based_on_Time_Varying_Survival_Analysis.pdf)
 
 * Alaya, M. Z., Allart, T., Guilloux, A., & Lemler, S. Apprentissage pour les modeles d’Aalen et de Cox en grande dimension avec covariables temps-dépendantes.
-[pdf](/research/Alaya_(2016)_Apprentissage_pour_les_modeles_d’Aalen_et_de_Cox_en_grande_dimension_avec_covariables_temps-dependantes.pdf)
+[pdf](/research/Alaya_(2016)_Apprentissage_pour_les_modeles_d_Aalen_et_de_Cox_en_grande_dimension_avec_covariables_temps-dependantes.pdf)
