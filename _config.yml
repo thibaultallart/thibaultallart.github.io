@@ -12,7 +12,7 @@ title:            Thibault Allart
 tagline:          'Data Scientist'
 description:      '' 
 url:              http://thibaultallart.github.io
-baseurl:          /
+baseurl:          
 
 author:
   name:           'Thibault Allart'
