@@ -8,7 +8,7 @@ gems:
 permalink:           pretty
 
 # Setup
-title:            " Thibault <br/> Allart "            
+title:            "<center> Thibault <br/> Allart </center>"            
 tagline:          'Data Scientist'
 description:      '' 
 url:              http://thibaultallart.github.io
