@@ -1,6 +1,6 @@
 ---
 layout: page
-sidebar: true
+sidebar: "true"
 title: Teaching
 ---
 
