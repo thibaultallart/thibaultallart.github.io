@@ -8,10 +8,10 @@ title: Teaching
 
 | Course     | Level   | Institute | Content      |
 | ---------- | ------  | ----------|--------------|
-| [Java programming](/teaching/nfa031) | Licence | CNAM      | conditions - loops - functions - array |
+| Java programming | Licence | CNAM      | conditions - loops - functions - array |
 | Biostatistics | Licence | CNAM | ROC curve - AUC - Sensibility - Specificity |
 | Introduction to statistics | Master  | ENJMIN    | probability - confidence interval - tests <br> Markov chain - regression |
-| [Survival Analysis](/teaching/survival) | Master | CNAM | Kaplan-Meier - Cox proportional hazard |
+| Survival Analysis | Master | CNAM | Kaplan-Meier - Cox proportional hazard |
 | Longitudinal data | Master | CNAM |  mixed model - random effect - longitudinal data | 
 
 
