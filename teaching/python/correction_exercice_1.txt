@@ -1,0 +1,93 @@
+## Bases ##
+
+Exercice 1 :
+nom = input("Quel est votre nom ? ")
+age = input("Quel est votre age ? ")
+print("Bonjour", nom, "vous avez", age, "ans.")
+
+Exercice 2 : 
+print("entrez le nombre d'heures")
+heures = int(input())
+
+print("entrez le nombre de minutes")
+minutes = int(input())
+
+print("entrez le nombre de secondes")
+secondes = int(input())
+
+nb_secondes = secondes + minutes*60 + heures*60*60
+print("le résultat est : ", nb_secondes)
+
+
+
+## Conditions ##
+
+Exercice 1 :
+x = int(input("entrez un nombre"))
+if x > 0 :
+    print("positif")
+elif x < 0 :
+    print("négatif")
+else :
+    print("nul")
+
+
+Exercice 2 :
+a)
+x=int(input("Entrer un nombre\n"))
+if x%3==0 and x%5==0:
+    print("Nombre divisible par 3 et 5")
+else:
+    print("Non divisible par 3 et 5")
+	
+b)
+x=int(input("Entrer un nombre\n"))
+if x%3==0 or x%5==0:
+    print("Nombre divisible par 3 ou 5")
+else:
+    print("Non divisible par 3 ou 5")
+
+
+	
+	
+** conditions imbriqués : **
+
+x = int(input('Entrez un nombre entier: '))
+if x%2 == 0:
+    if x%3 == 0:
+        print('Divisible par 2 et 3')
+    else:
+        print('Divisible par 2 mais pas par 3')
+elif x%3 == 0:
+    print('Divisible par 3 mais pas par 2')
+
+	
+	
+	
+Exercice 3 :
+nombre=int(input("Saisir un nombre:"))
+if nombre < 0 :
+	print("Erreur nombre négatif")
+else:
+	racine = nombre**(1/2)
+	print("La racine carrée est : ",racine)
+
+	
+Exercice 4 :
+x = int(input('Entrez un premier nombre entier: '))
+y = int(input('Entrez un deuxieme nombre entier: '))
+z = int(input('Entrez un troisieme nombre entier: '))
+if x<=y and x<=z :
+    print(x)
+elif y<=x and y<=z :
+    print(y)
+else :
+    print(z)
+
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,435 @@
+1) Introduction
+a) Un petit historique
+1883 Ada Lovelace concoit le premier programme informatique pour "La machine analytique" de Charles Babbage
+1972 Dennis Ritchie et Ken Thompson concoivent le C afin de développer un système d'exploitation : UNIX
+1993 Bjarne Stroustrup développe le C++
+1991 Guido Van Rossum développe Python (nom en référence des Monthy Python)
+
+Algorithme vient du mathématicien perse Al-Khwarizmi (Ouzbékistan)
+
+b) Un duel de version déjà tranché
+La version 3 de python introduit de profonds changements dans le langage. 
+En conséquence, du code python 2 ne fonctionne pas sur python 3 et inversement.
+Un exemple de différence 
+python 2 : print "test"
+python 3 : print("test")
+
+Question : python 2.x ou python 3.x ?
+(https://pythonclock.org/)
+python 2 ne sera plus supporté en 2020 et toutes les librairies majeures sont déjà en python 3.
+Donc on utilise python 3.
+
+
+c) Les Types
+int : les entiers ex : 5
+float : nombres réels ex : 3.14 (en 64bits) # voir sys.float_info
+bool : les booléens à valeur True et False
+NoneType : un type spécial qui n'a qu'une seule valeur : None
+Les types définis par l'utilisateur et les modules importés.
+Pour connaitre le type d'un objet : type()
+
+Python est un langage dynamique : Il n'y a pas de déclaration du type des variables ni du type des paramètres ou du retour d'une fonction.
+avantages : le code est plus court et flexible
+inconvénients : pas de vérification du type à la compilation. L'erreur apparait à l'exécutions
+
+exemple avec le code suivant 
+$ python        ## Run the Python interpreter
+Python 3.6.2 |Anaconda custom (64-bit)| (default, Jul 20 2017, 13:51:32) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a = 6       ## déclare une variable
+>>> a           ## affiche sa valeur
+6
+>>> a + 2
+8
+>>> a = 'hi'    ## 'a' contient maintenant un string
+>>> a           ## 'a' label un autre objet, le précédent est perdu
+'hi'
+>>> len(a)      ## appelle la "fonction" len() sur un string
+2
+>>> a + len(a)  ## essaye quelque chose qui ne fonctionne pas
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: must be str, not int
+>>> a + str(len(a))  ## probablement ce que l'on voulait faire
+'hi2'
+>>> foo         ## encore quelque chose qui ne fonctionne pas
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'foo' is not defined
+>>> quit()      ## exit
+
+En résumé :
+Le type d'une variable est implicite et dépend de la 1ere initialisation.
+S'il y a un changement de type, une nouvelle variable est crée et la première variable est (éventuellement) détruite.
+a = 5   # entier
+a = 3.0 # new float
+a = int(a) # new entier
+
+Pour convertir un objet dans le type voulu, on utilise les fonctions portant le nom du type :
+int(), float(), str(), ...
+
+
+d) syntaxe
+python est sensible à la case : "a" et "A" sont deux variables différentes
+la fin d'une ligne indique la fin d'une déclaration. Il n'y a dont pas besoin de ";" comme en c++ ou java.
+Un commentaire commence par "#" et s'étend jusqu'à la fin de la ligne
+Un commentaire sur plusieurs lignes commence et termine par """ ou '''.
+En python l'indendation sers de délémiteur, équivalent aux accolades {} en C++
+indentation = 4 espaces
+Python donne des recommendations de syntaxe : pep8  (à lire !)
+et aussi Google Python Style Guide
+
+
+e) script vs fichier source
+un fichier source python porte l'extension .py on parle de "module"
+pour exécuter un module hello.py en ligne de commande, on utilise "python hello.py"
+On peut éventuellement passer des paramètres "python hello.py Medas"
+
+Exemple de programme hello.py :
+
+#!/usr/bin/env python
+
+# import modules used here -- sys is a very standard one
+import sys
+
+# Gather our code in a main() function
+def main():
+    print('Hello there', sys.argv[1])
+    # Command line args are in sys.argv[1], sys.argv[2] ...
+    # sys.argv[0] is the script name itself and can be ignored
+
+# Standard boilerplate to call the main() function to begin
+# the program.
+if __name__ == '__main__':
+    main()
+
+une fois le code souce sauvegardé, on l'appelle en ligne de commande depuis son dossier
+>>> python hello.py Guido
+Hello there Guido
+
+
+f) installation de nouveaux modules
+L'installation de modules est facilité par Pip.
+Il suffit de rentre en ligne de commande (pas dans python)
+pip install module_name
+
+
+g) Les mots clés réservés 
+>>> from keyword import kwlist as reserved_keyword
+>>> reserved_keyword
+['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+
+
+
+
+
+
+
+
+
+2) Les opérateurs 
+a) affectation
+le symbole d'affectation est le signe "="
+Lors d'une affectation Python crée à la fois une valeur et la variable qui pointe vers cette valeur.
+Par la suite on parlera d'étiquette ou de label.
+a=5       # crée un nombre entier 2 et le labellise avec a
+print(a)
+b=a       # ajoute le label b sur le même objet, pas de création d'un nouvel objet
+print(b)
+a="cerise" # crée une chaine de caractére "cerise" et ajoute le label a dessus.
+print(a)   
+print(b)   # b pointe toujours sur 2
+
+
+b) Les opérateurs binaires
+i+j  # somme
+i-j  # difference
+i*j  # produit
+i/j  # division
+i//j # division Euclidienne (entière)
+i%j  # modulo (reste de la division Euclidienne)
+i**j # puissance
+
+
+c) l'ordre des opérateurs
+()
+**
+*
+/
+//
+%
++ et - s'exécutent de gauche à droite
+Conclusion : utilisez des parenthèses mais n'en abusez pas, voir pep8
+
+
+c) Opérateurs de comparaison
+i>j
+i>=j
+i<j
+i<=j
+i==j  # test d'égalité
+i!=j  # test d'inégalité
+
+
+d) opérateurs logiques
+not a
+a and b # vrai si les deux sont vrai
+a or b  # vrai si au moins un des deux est vrai
+
+|  A   |  B   | A and B | A or B
+|True  |True  |True     |True
+|True  |False |False    |True
+|False |True  |False    |True
+|False |False |False    |False
+
+
+exercice : traduire l'énoncé suivant
+"Je viendrai si Abdel et Louis viennent ou si Lisa vient"
+reponse = (Abdel and Louis) or Lisa
+
+
+
+
+
+
+
+
+
+
+3) Les conditions
+Une structure conditionnelle définit une condition et un comportement à suivre si elle est réalisée.
+Optionnellement, elle définit un comportement à suivre dans le cas contraire.
+Dessiner un arbre : branches vrai et faux
+En python, la syntaxe est la suivante
+if : si
+elif : sinon si
+else : sinon
+
+
+exemple 1 : Le nombre est il pair ou impair
+x= int(input('Entrez un nombre : '))
+if x%2 == 0:
+    print('pair')
+else:
+    print('impair')
+print('Fin de la condition')
+
+exemple 2 : conditions imbriqués
+x = int(input('Entrez un nombre entier: '))
+if x%2 == 0:
+    if x%3 == 0:
+        print('Divisible par 2 et 3')
+    else:
+        print('Divisible par 2 mais pas par 3')
+elif x%3 == 0:
+    print('Divisible par 3 mais pas par 2')
+	
+#Question qu'affiche le programme pour x=5 ?
+
+Remarque : bien faire attention aux indentations (4 espaces)!
+
+
+
+
+
+
+
+
+
+
+3) Les boucles
+Itération sur une séquence de nombres
+# Boucle for
+for n in range(5):
+    print(n)
+
+# Boucle while
+n = 0
+while n < 5:
+    print(n)
+    n = n+1
+
+Toujours préférer la boucle for, qui est bien plus lisible
+Attention 5 n'est pas compris dans la séquence
+On peut utiliser range(start,stop,step)
+
+
+b) l'instruction break
+permet de sortir de la boucle actuelle
+for i in range(10):
+    print(i)
+    if i == 5:
+        break
+0
+1
+2
+3
+4
+5
+
+
+
+
+
+
+
+
+
+
+5) Containers 
+a) strings
+On peut voir les strings comme un tableau dont chaque element est un caractère
+s = "abc"
+Pour accéder à un élément particulier on utilise l'opérateur "[]"
+s[0]  # "a"
+s[1]  # "b"
+s[2]  # "c"
+s[3]  #IndexError: string index out of range
+On peut aussi utiliser des indices négatif
+s[-1] # "c"
+s[-2] # "b"
+s[-3] # "a"
+
+on peut connaitre la taille de n'importe quel objet en utilisant len()
+len(s)  # 3
+
+En python les strings sont immuable, on ne peut pas les modifier
+s[0] = "B" # TypeError: 'str' object does not support item assignment
+
+Une boucle for peut itérer directement sur un container
+for char in s:
+     print(char)
+b
+o
+n
+j
+o
+u
+r
+
+
+b) Slicing
+[start:stop:step]
+s = "bonjour"
+s[3:]   # "jour"
+s[1:2]  # "o"
+s[::-1] #'ruojnob'
+        # equivalent à s[0:len(s):-1]
+
+>>> v = [10, 20, 30, 40, 50, 60]
+>>> v[2:4]
+[30,40]
+>>> v[:2]
+[10,20]
+>>> v[2:]
+[30, 40, 50, 60]
+
+le dernier élèment est exclu, comme dans range(n)
+
+
+c) liste de liste et slicing 2d
+>>> board = [['_'] * 3 for i in range(3)]
+>>> board
+[['_', '_', '_'], ['_', '_', '_'], ['_', '_', '_']]
+>>> board[1][2] = 'X'
+>>> board
+[['_', '_', '_'], ['_', '_', 'X'], ['_', '_', '_']]
+
+Attention à ne pas utiliser
+board = [['_'] * 3] * 3
+qui crée trois références sur la même liste et produit
+[['_', '_', 'X'], ['_', '_', 'X'], ['_', '_', 'X']]
+
+
+
+
+
+
+6) Algorithmes
+a) binary search, bisection search, dichotomie, ...
+"diviser pour mieux reigner"
+illustrer l'algorithme au tableau 
+complexité de l'algorithme
+iteration | reste à traiter
+    0     |       n
+    1     |      n/2
+    2     |      n/4
+    k     |      n/(2**k)
+convergence en o(log_2(n))
+Rechercher un élément dans un tableau non trié : o(n)
+Rechercher un élément dans un tableau trié : o(log_2(n))
+    n    | log2(n) arrondi au supérieur
+      10 |   4      
+     100 |   7
+    1000 |  10
+   10000 |  14
+  100000 |  17
+ 1000000 |  20
+10000000 |  24
+
+
+d) Tri : list.sort() et sorted()
+>>> fruits = ['pomme', 'fraise', 'oranges', 'bananes']
+>>> sorted(fruits)
+['bananes', 'fraise', 'oranges', 'pomme']
+>>> fruits
+['pomme', 'fraise', 'oranges', 'bananes']
+>>> fruits.sort()
+>>> fruits
+['bananes', 'fraise', 'oranges', 'pomme']
+
+# NumPy and SciPy
+NumPy implémente des tableaux multi-dimentionnels
+SciPy est basé sur NumPy et implémente de nombreuses méthodes d'algèbre linéaire.
+
+import numpy
+a = numpy.arange(12)
+type(a)
+a.shape
+a.shape = 3,4  # converti le vecteur en matrice 3 par 4
+a
+a[2]    # accède à la ligne 2
+a[2,1]  # ligne 2, colone 1
+a[:,1]  # colone 1
+a.transpose()
+
+
+e) Mesure du temps
+from time import perf_counter as pc
+start = pc()
+...
+stop = pc()
+temps = stop - start    # en secondes
+
+
+
+# Dictionaire et table de hachage
+
+
+
+
+7) Fonctions
+def nom_de_ma_fonction(parametres):
+     calculs
+     return objet_a_retourner
+
+
+
+
+
+
+Quelques sources :
+cours python du MIT
+google for education : python
+https://developers.google.com/edu/python/strings
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+## Bases ##
+
+Exercice 1 :
+Ecrire un programme qui demande le nom et l'age de l'utilisateur et les affiche.
+Pour récupérer une valeur, on utilise la fonction input()
+>>> Quel est votre nom ?
+Thibault
+>>> Quel age avez vous ?
+29
+Bonjour Thibault, vous avez 29 ans.
+
+Exercice 2 :
+Récupérer la valeur de 3 entiers représentant un temps en heures, minutes et secondes.
+Afficher ce temps en nombre de secondes
+
+
+
+## Conditions ##
+
+Exercice 1 :
+Ecrire un programme qui affiche "positif" si un nombre entré est supérieur à zero, "nul" si zero et "négatif" sinon.
+
+Exercice 2 :
+a) Ecrire un programme permettant de tester si un nombre est divisible par 3 et par cinq
+b) Ecrire un programme permettant de tester si un nombre est divisible par 3 ou par cinq
+
+Exercice 3 :
+Ecrire un programme qui affiche la racine carrée d'un nombre et 
+affiche un message d'erreur si ce nombre est négatif.
+
+Exercice 4 :
+Ecrire un programme qui récupère trois entiers et affiche le minimum en utilisant des conditions (if/elif/else)
+
+
+
+## Boucles ##
+
+Exercice 1 :
+Ecrire un programme prenant en entrée un entier N et qui affiche un triangle composé d'étoiles comme dans l'exemple ci dessous :
+a)
+N=4
+*
+**
+***
+****
+b)
+N=4
+****
+ ***
+  **
+   *
+c)
+N=4
+   *
+  **
+ ***
+****
+
+Exercice 2 :
+Ecrire un programme qui affiche la n-ième valeur de la suite de Fibonacci définie comme suit:
+u_1 = 1
+u_2 = 1
+u_n = u_{n-1} + u_{n-2} pour n>2 
+
+Exercice 3 :
+Ecrire un programme qui permet de rentrer des valeurs numériques 
+positives et affiche le maximum au fur et à mesure de la saisie. 
+Le programme s'arrête lorsqu'on entre une valeur négative.
+
+Exercice 4 :
+Déterminer si un nombre est premier ou non
+
+
+
+## Algorithmes ##
+Exercice 1 :
+Ecrire un programme qui trouve une approximation de la racine cubique d'un nombre en utilisant la méthode de la séquante (dichotomie).
+
+
+
+## Fonctions ##
+Exercice 1 :
+a) Ecrire une fonction permettant d'afficher une ligne de n étoiles
+N=5
+*****
+b) Ecrire une fonction permettant d'afficher une étoile, suivie de N-2 espaces, puis de une étoie
+N=5
+*   *
+c) Combinez ces deux fonction pour afficher un rectangle de N lignes et P colones
+N=4
+P=5
+*****
+*   *
+*   *
+*****
+
+
+http://hebergement.u-psud.fr/iut-orsay/Pedagogie/MPHY/Python/exercices-python3.pdf
