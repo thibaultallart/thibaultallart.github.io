@@ -5,6 +5,7 @@ title: Teaching
 ---
 
 # 2017 - 2018
+
 | Course     | Level   | Institute | Content      |
 | ---------- | ------  | ----------|--------------|
 | Python for data science | Master | CNAM      |  [cours 1](/teaching/python/cours_1.txt) [exercice 1](/teaching/python/exercice_1.txt) [correction 1](/teaching/python/correction_exercice_1.txt)|
