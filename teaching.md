@@ -9,7 +9,7 @@ title: Teaching
 | Course     | Level   | Institute | Content      |
 | ---------- | ------  | ----------|--------------|
 | Python for data science | Master | CNAM      |  [cours 1](/teaching/python/cours_1.txt) [exercice 1](/teaching/python/exercice_1.txt) [correction 1](/teaching/python/correction_exercice_1.txt)|
-| Statistics | Master | CNAM      | [cours 1][statistics_week_1.pdf](/teaching/statistics/statistics_week_1.pdf) |
+| Statistics | Master | CNAM      | [cours 1][/teaching/statistics/statistics_week_1.pdf](/teaching/statistics/statistics_week_1.pdf) |
 
 # 2016 - 2017
 
