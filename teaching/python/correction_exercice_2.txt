@@ -86,7 +86,47 @@ else :
 
 	
 	
-	
+# Boucles
+1)
+n = 5
+for i in range(n):
+    for j in range(i):
+        print("*",end="")
+    print("")
+    
+1')
+n = 5
+for i in range(n):
+    for j in range(n-i):
+        print("*",end="")
+    print("")
+2)
+n = 5
+for i in range(n):
+    for j in range(i):
+        print(" ",end="")
+    for j in range(n-i):
+        print("*",end="")
+    print("")
+    
+3)
+n = 5
+for i in range(n):
+    for j in range(n-1-i):
+        print(" ",end="")
+    for j in range(i+1):
+        print("*",end="")
+    print("")
+    
+    
+Exercice 3 :
+max = 0
+a = 0
+while a>0:
+    a = int(input("..."))
+    if a>max:
+        max = a
+    print("le max est",max)
 	
 	
 	
