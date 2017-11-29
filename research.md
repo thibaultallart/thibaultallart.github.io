@@ -4,6 +4,13 @@ sidebar: true
 title: Research
 ---
 
+## PHD Thesis
+
+* T. Allart(2017). Apprentissage statistique sur données longitudinales de grande taille et applications au design des jeux vidéo
+[pdf](/research/These_Thibault_Allart.pdf)
+
+Keywords : Statistical learning, optimization, video games
+
 ## International conferences
 
 * T. Allart, G. Levieux, M. Pierfitte, A. Guilloux, S. Natkin. (2017). Difficulty Influence on Motivation over Time in Video Games using Survival Analysis. Foundation of Digital Games, August 2017, Cape Cod, MA, Etats Unis.
