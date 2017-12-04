@@ -4,10 +4,10 @@ sidebar: true
 title: Research
 ---
 
-## PHD Thesis
+## PhD Thesis
 
 * T. Allart(2017). Apprentissage statistique sur données longitudinales de grande taille et applications au design des jeux vidéo
-[pdf](/research/These_Thibault_Allart.pdf)
+[These](/research/These_Thibault_Allart.pdf)[slides](/research/Slides.pdf)
 
 Keywords : Statistical learning, optimization, video games
 
